@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Background from './assets users/background.svg'
+import Background from '../../assets users/background.svg'
 
 export const Container = styled.div`
     background: url("${Background}");
@@ -92,30 +92,5 @@ export const Button = styled.button`
 
     `;
     
-    export const User = styled.li`
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    
-
-    border-radius: 14px;
-    box-shadow: 0px 4x 4x rgba(0,0,0,0.25);
-    background: rgba(255, 255, 255, 0.25);
-    width: 342px;
-    height: 58px;
-    border: none;
-    outline: none;
-    margin-top: 20px;
-
-
-    p {
-        color: #fff;
-    }
-
-    button {
-        background: none;
-        border: none;
-        cursor: pointer;
-    }
-    `
+  
 
