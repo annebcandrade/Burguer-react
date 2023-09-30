@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import Background from '../../assets users/background.svg'
 
 export const Container = styled.div`
-    background: url("${Background}");
+    background: #000000;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -68,7 +67,7 @@ export const Input = styled.input`
 export const Button = styled.button`
     width: 342px;
     height:74px;
-    background: rgba(0,0,0,0.8);
+    background: #FF0000;
     border-radius: 14px;
     border: none;
     font-style: normal;

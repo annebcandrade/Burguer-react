@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import Background from '../../assets users/background.svg'
 
 export const Container = styled.div`
-    background: url("${Background}");
+    background: #000000;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -90,10 +89,13 @@ export const Button = styled.button`
     border: none;
     outline: none;
     margin-top: 20px;
+    padding: 10px;
+
 
 
     p {
         color: #fff;
+        font-weight: bold;
     }
 
     button {

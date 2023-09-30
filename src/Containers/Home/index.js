@@ -2,8 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import { Container, H1, Image, ContainerItems, InputLabel, Input, Button} from './styles'
-import People from '../../assets users/people.svg'
-import Arrow from '../../assets users/arrow.svg'
+import Burguer from '../../assets users/burger 1.png'
 import { useState, useRef} from 'react';
 function App() {
 
@@ -29,17 +28,17 @@ function App() {
 
   return (
     <Container>
-      <Image alt="logo-imagem" src={People} />
+      <Image alt="logo-imagem" src={Burguer} />
       <ContainerItems>
-        <H1>Olá!</H1>
+        <H1>Faça seu Pedido!</H1>
 
-        <InputLabel>Nome</InputLabel>
-        <Input ref={inputName} placeholder="Nome" />
+        <InputLabel>Nome do Cliente</InputLabel>
+        <Input ref={inputName} placeholder="Digite seu nome" />
 
-        <InputLabel>Idade</InputLabel>
-        <Input ref={inputAge} placeholder="Idade" />
+        <InputLabel>Pedido</InputLabel>
+        <Input ref={inputAge} placeholder="Escolha seu Pedido" />
 
-      <Button  onClick={addNewUser}>Cadastrar <img alt="seta" src={Arrow} /></Button>
+      <Button  onClick={addNewUser}>Novo Pedido</Button>
 
 
       </ContainerItems>
