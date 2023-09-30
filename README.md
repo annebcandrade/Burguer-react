@@ -4,6 +4,4 @@
 
 🔹Demais Tecnologias trabalhadas nesse proejto: Styled Components, Props, React Router Dom, Link, History.
 
-🟡Repositório front-end: https://lnkd.in/dzmY28PV
-
 🟣Repositório Back-end: https://lnkd.in/dbX-SWZN
